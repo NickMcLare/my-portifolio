@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Nicholas S Sousa</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,700&display=swap">
+    <link rel="stylesheet" href="/curso_JS/portifolio/assets/fontes/neueMachina-Regular.otf">
+
+    <link rel="stylesheet" href="/curso_JS/portifolio/assets/css/header.css">
+    <link rel="stylesheet" href="/curso_JS/portifolio/assets/css/global.css">
+    <link rel="stylesheet" href="/curso_JS/portifolio/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/curso_JS/portifolio/assets/css/languages.css">
+    <link rel="stylesheet" href="/curso_JS/portifolio/assets/css/projetos.css">
+    <link rel="stylesheet" href="/curso_JS/portifolio/assets/css/experience.css">
+    <link rel="stylesheet" href="/curso_JS/portifolio/assets/css/skills.css">
+</head>
+</head>
+<body>
+    <main class="main">
+
+        <header class="header">
+            <img src="/curso_JS/portifolio/assets/img/my_photo.jpg" alt="Foto de Perfil" class="photo" id="profile.photo">
+            
+            <h1 class="tittle">Olá, <br>eu sou <span id="profile.name">Carregando...</span></h1>
+            
+            <div class="information">
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
+                <p class="phone">
+                    <a href="tel:(21) 98036-8791" id="profile.phone">Carregando...</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:nicholasousa0807@gmail.com" target="_blank" id="profile.email">carregando@gmail.com</a>
+                </p>
+            </div>
+        
+        </header>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Skills:</h2>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Habilidade profissionais:</h3>
+                        <ul id="profile.skills.hardSkills">
+                            
+                        </ul>
+                    </section>
+                    
+
+                    <section class="personal">
+                        <h3>Habilidade pessoais:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger">
+                <h2>Idiomas:</h2>
+            </button>
+
+            <div class="content">
+                <ul class="languages" id="profile.languages">
+                    <li>Português (BR)</li>
+                    <li>Inglês</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Projetos:</h2>
+            </button>
+
+            <div class="content">
+               <ul class="projetos" id="profile.projetos">
+                    
+               </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiências Profissionais:</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience" id="profile.professionalExperience">
+                    
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="/curso_JS/portifolio/assets/js/acordeon.js"></script>
+    <script src="/curso_JS/portifolio/assets/js/api.js"></script>
+    <script src="/curso_JS/portifolio/assets/js/main.js"></script>
+</body>
+</html>

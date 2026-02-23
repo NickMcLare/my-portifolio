@@ -1,0 +1,76 @@
+{
+  "name": "Nicholas S de Sousa",
+  "photo": "/curso_JS/portifolio/assets/img/my-photo-nick.jpg",
+  "job": "Estudante Universitário: UERJ ",
+  "location": "Rio de Janeiro - RJ",
+  "phone": "(21) 98036-8791",
+  "email": "nicholasousa0807@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Python",
+        "logo": ""
+      },
+      {
+        "name": "Java",
+        "logo": ""
+      },
+      {
+        "name": "JavaScript",
+        "logo": ""
+      },
+      {
+        "name": "HTML5",
+        "logo": ""
+      },
+      {
+        "name": "CSS",
+        "logo": ""
+      },
+      {
+        "name": "Git",
+        "logo": ""
+      },
+      {
+        "name": "GitHub",
+        "logo": ""
+      },
+      {
+        "name": "MySQL",
+        "logo": ""
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "Resolução de problemas",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização",
+      "Aprendizado rápido",
+      "Comunicação"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (Avançado)"
+  ],
+  "portfolio": [
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
+      "url": "",
+      "github": true
+    },
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+      "url": "",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Sem experiência profissional",
+      "period": null,
+      "description": null
+    }
+  ]
+}

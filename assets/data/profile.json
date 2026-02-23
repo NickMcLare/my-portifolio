@@ -1,6 +1,6 @@
 {
   "name": "Nicholas S de Sousa",
-  "photo": "/curso_JS/portifolio/assets/img/my-photo-nick.jpg",
+  "photo": "https://raw.githubusercontent.com/NickMcLare/my-portifolio/refs/heads/main/assets/img/my-photo-nick.jpg",
   "job": "Estudante Universitário: UERJ ",
   "location": "Rio de Janeiro - RJ",
   "phone": "(21) 98036-8791",
@@ -9,35 +9,35 @@
     "hardSkills": [
       {
         "name": "Python",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/NickMcLare/my-portifolio/44af6e4d05991ffef353b6e57a8fde4e0d2acd5f/assets/data/imgs/python-icon.svg"
       },
       {
         "name": "Java",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/NickMcLare/my-portifolio/44af6e4d05991ffef353b6e57a8fde4e0d2acd5f/assets/data/imgs/java-icon.svg"
       },
       {
         "name": "JavaScript",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/NickMcLare/my-portifolio/44af6e4d05991ffef353b6e57a8fde4e0d2acd5f/assets/data/imgs/js-icon.svg"
       },
       {
         "name": "HTML5",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/NickMcLare/my-portifolio/44af6e4d05991ffef353b6e57a8fde4e0d2acd5f/assets/data/imgs/html-icon.svg"
       },
       {
         "name": "CSS",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/NickMcLare/my-portifolio/44af6e4d05991ffef353b6e57a8fde4e0d2acd5f/assets/data/imgs/css-icon.svg"
       },
       {
         "name": "Git",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/NickMcLare/my-portifolio/44af6e4d05991ffef353b6e57a8fde4e0d2acd5f/assets/data/imgs/git-icon.svg"
       },
       {
         "name": "GitHub",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/NickMcLare/my-portifolio/44af6e4d05991ffef353b6e57a8fde4e0d2acd5f/assets/data/imgs/github-icon.svg"
       },
       {
         "name": "MySQL",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/NickMcLare/my-portifolio/44af6e4d05991ffef353b6e57a8fde4e0d2acd5f/assets/data/imgs/sql-icon.svg"
       }
     ],
     "softSkills": [
@@ -57,20 +57,20 @@
   "portfolio": [
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "",
+      "url": "https://github.com/NickMcLare/pokedex-project",
       "github": true
     },
     {
       "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "",
+      "url": "https://github.com/NickMcLare/my-portifolio",
       "github": true
     }
   ],
   "professionalExperience": [
     {
       "name": "Sem experiência profissional",
-      "period": null,
-      "description": null
+      "period": "Vazio",
+      "description": "Vazio"
     }
   ]
 }

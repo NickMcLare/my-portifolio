@@ -34,11 +34,16 @@
     background-size: contain;
     background-image: url('../img/icons/iconmonstr-github-1\ 1.svg');
     margin-right: .5rem;
+    min-width: 20px;
+    min-height: 20px;
 }
 
 .projetos li a {
     color: #fff;
     text-decoration: none;
+
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .projetos li a:hover {

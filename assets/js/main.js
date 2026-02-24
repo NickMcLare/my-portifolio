@@ -24,10 +24,7 @@ function updateProfileInfo(profileData) {
 
 function updateMe(profileData) {
     const sobreMim = document.getElementById('profile.me')
-    sobreMim.innerHTML = profileData.me.map(texto => 
-        texto.split('\n\n') 
-        .map(me => `<p>${me}</p>`)
-    ).join('')
+    sobreMim.innerHTML = profileData.me.map(texto => texto.split(`\n`) .map(me => `<p>${me}</p>`).join('')).join('')
 }
 
 function updateSoftSkills(profileData) {

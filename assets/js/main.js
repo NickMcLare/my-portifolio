@@ -1,6 +1,6 @@
 function normalizeToArray(data) {
     if (Array.isArray(data)) return data
-    if (data === undefined || data === null) return []
+    if (data === undefined) return []
     return [data]
 }
 

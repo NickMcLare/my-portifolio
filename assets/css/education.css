@@ -9,10 +9,13 @@
 }
 
 .education li {
+    margin-bottom: .5rem;
+}
+
+.education li .name, .institution, .period {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: .25rem;
 }
 
 .education li .name::before {
@@ -25,9 +28,6 @@
     background-size: contain;
     background-image: url('../img/icons/study-svgrepo-com.svg');
     margin-right: .5rem;
-
-    min-width: 20px;
-    min-height: 20px;
 }
 
 .education li .institution::before {
@@ -40,9 +40,6 @@
     background-size: contain;
     background-image: url('../img/icons/graduacao-icon.svg');
     margin-right: .5rem;
-
-    min-width: 20px;
-    min-height: 20px;
 }
 
 .education li .period::before {
@@ -55,7 +52,4 @@
     background-size: contain;
     background-image: url('../img/icons/calendario-icon.svg');
     margin-right: .5rem;
-
-    min-width: 20px;
-    min-height: 20px;
 }

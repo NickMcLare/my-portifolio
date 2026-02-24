@@ -60,9 +60,9 @@ function updateEducation(profileData) {
         }
         return `
             <li>
-                <h3>${item.name}</h3>
-                <p>${item.institution}</p>
-                <p>${item.period}</p>
+                <h3 class= "name">${item.name}</h3>
+                <p class= "institution">${item.institution}</p>
+                <p class= "period">${item.period}</p>
             </li>
         `
     }).join('')

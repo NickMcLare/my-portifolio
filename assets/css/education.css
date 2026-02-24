@@ -9,25 +9,10 @@
 }
 
 .education li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     margin-bottom: .25rem;
-}
-
-.education li .name {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.education li .institution {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.education li .period {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .education li .name::before {

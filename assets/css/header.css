@@ -15,7 +15,7 @@
     height: 1.5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/curso_JS/portifolio/assets/img/icons/tresPontos-icon.svg');
+    background-image: url('//curso_JS/portifolio/assets/img/icons/tresPontos-icon.svg');
     
 }
 
@@ -62,19 +62,19 @@
 }
 
 .information .job::before {
-    background-image: url('/curso_JS/portifolio/assets/img/icons/job-icon.svg');
+    background-image: url('//curso_JS/portifolio/assets/img/icons/job-icon.svg');
 }
 
 .information .location::before {
-    background-image: url('/curso_JS/portifolio/assets/img/icons/local-icon.svg');
+    background-image: url('//curso_JS/portifolio/assets/img/icons/local-icon.svg');
 }
 
 .information .email::before {
-    background-image: url('/curso_JS/portifolio/assets/img/icons/email-icon.svg');
+    background-image: url('//curso_JS/portifolio/assets/img/icons/email-icon.svg');
 }
 
 .information .phone::before {
-    background-image: url('/curso_JS/portifolio/assets/img/icons/phone-icon.svg');
+    background-image: url('//curso_JS/portifolio/assets/img/icons/phone-icon.svg');
 }
 
 

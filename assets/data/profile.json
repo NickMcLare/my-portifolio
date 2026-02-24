@@ -67,6 +67,11 @@
       "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
       "url": "https://github.com/NickMcLare/my-portifolio",
       "github": true
+    },
+    {
+      "name": "Projeto de SQL feito na DIO",
+      "url": "https://github.com/NickMcLare/sql_dio_ecommerce",
+      "github": true
     }
   ],
   "professionalExperience": [
@@ -76,7 +81,7 @@
       "description": "Vazio"
     }
   ],
-  "formacao": [
+  "education": [
     {
       "name": "Análise e Desenvolvimento de Sistemas",
       "institution": "UERJ",
@@ -86,6 +91,16 @@
       "name": "Formação JavaScript Developer",
       "institution": "Dio",
       "period": "2026"
+    },
+    {
+      "name": "Jornada Python Hashtag",
+      "institution": "Hashtag",
+      "period": "2023"
+    },
+    {
+      "name": "Excel Avançado",
+      "institution": "Fundação Bradesco",
+      "period": "2023"
     }
   ]
 }

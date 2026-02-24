@@ -50,11 +50,11 @@ function updateLanguages(profileData) {
     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 }
 
-function updateFormacao(profileData) {
-    const formacao = document.getElementById('profile.formacao')
+function updateEducation(profileData) {
+    const education = document.getElementById('profile.education')
 
-    const items = normalizeToArray(profileData.formacao)
-    formacao.innerHTML = items.map(item => {
+    const items = normalizeToArray(profileData.education)
+    education.innerHTML = items.map(item => {
         if (typeof item === 'string') {
             return `<li><h3>${item}</h3></li>`
         }
@@ -103,7 +103,7 @@ function updateProfessionalExperience(profileData) {
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
-    updateFormacao(profileData)
+    updateEducation(profileData)
     updateProjetos(profileData)
     updateProfessionalExperience(profileData)
 })()

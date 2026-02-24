@@ -1,6 +1,6 @@
 
 
-.formacao {
+.education {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -8,29 +8,29 @@
     list-style: none;
 }
 
-.formacao li {
+.education li {
     margin-bottom: .25rem;
 }
 
-.formacao li .name {
+.education li .name {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.formacao li .institution {
+.education li .institution {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.formacao li .period {
+.education li .period {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.formacao li .name::before {
+.education li .name::before {
     content: "";
     display: inline-block;
     width: 1rem;
@@ -45,7 +45,7 @@
     min-height: 20px;
 }
 
-.formacao li .institution::before {
+.education li .institution::before {
     content: "";
     display: inline-block;
     width: 1rem;
@@ -60,7 +60,7 @@
     min-height: 20px;
 }
 
-.formacao li .period::before {
+.education li .period::before {
     content: "";
     display: inline-block;
     width: 1rem;

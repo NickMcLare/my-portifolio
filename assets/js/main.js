@@ -1,3 +1,9 @@
+function normalizeToArray(data) {
+    if (Array.isArray(data)) return data
+    if (data === undefined || data === null) return []
+    return [data]
+}
+
 
 function updateProfileInfo(profileData) {
     const photo = document.getElementById('profile.photo')
@@ -46,11 +52,17 @@ function updateLanguages(profileData) {
 
 function updateFormacao(profileData) {
     const formacao = document.getElementById('profile.formacao')
-    formacao.innerHTML = profileData.formacao.map(formacao => {
+
+    const items = normalizeToArray(profileData.formacao)
+    formacao.innerHTML = items.map(item => {
+        if (typeof item === 'string') {
+            return `<li><h3>${item}</h3></li>`
+        }
         return `
             <li>
-                <h3 class="title">${formacao.name}</h3>
-                <p class="period">${formacao.period}</p>
+                <h3>${item.name}</h3>
+                <p>${item.institution}</p>
+                <p>${item.period}</p>
             </li>
         `
     }).join('')

@@ -75,5 +75,11 @@
       "period": "Vazio",
       "description": "Vazio"
     }
+  ],
+  "formacao": [
+    {
+      "name": "Certificado de pulo-mortal",
+      "period": "2020"
+    }
   ]
 }

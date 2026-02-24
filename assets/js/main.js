@@ -44,6 +44,18 @@ function updateLanguages(profileData) {
     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 }
 
+function updateFormacao(profileData) {
+    const formacao = document.getElementById('profile.formacao')
+    formacao.innerHTML = profileData.formacao.map(formacao => {
+        return `
+            <li>
+                <h3 class="title">${formacao.name}</h3>
+                <p class="period">${formacao.period}</p>
+            </li>
+        `
+    }).join('')
+}
+
 function updateProjetos(profileData) {
     const projetos = document.getElementById('profile.projetos')
 
@@ -79,6 +91,7 @@ function updateProfessionalExperience(profileData) {
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
+    updateFormacao(profileData)
     updateProjetos(profileData)
     updateProfessionalExperience(profileData)
 })()

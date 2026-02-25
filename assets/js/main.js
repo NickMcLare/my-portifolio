@@ -34,7 +34,6 @@ function updateProfileInfo(profileData) {
     const github = document.getElementById('profile.github')
     github.innerText = profileData.github
     github.href = profileData.github
-    console.log(profileData)
 }
 
 function updateMe(profileData) {

@@ -5,6 +5,8 @@
   "location": "Rio de Janeiro - RJ",
   "phone": "(21) 98036-8791",
   "email": "nicholasousa0807@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/nicholas-santana-de-sousa-226038286/",
+  "github": "https://github.com/NickMcLare",
   "me": [
     "Sou uma pessoa curiosa por natureza, proativa, carismática e organizada. Gosto de aprender, entender como as coisas funcionam e transformar ideias em algo concreto.\nAcredito no poder da evolução contínua, tanto no âmbito pessoal quanto profissional. Valorizo a colaboração, a transparência e o propósito em tudo o que faço. Para mim, cada projeto vai além do código ou de uma tarefa: é uma oportunidade de crescimento, troca de experiências e impacto.\nAtualmente curso Análise e Desenvolvimento de Sistemas na UERJ (Campus Zona Oeste), no turno da noite, e estou no 7º período.\nGosto de ambientes em que posso contribuir de forma significativa, compartilhar conhecimento e aprender com as pessoas ao meu redor. Sou comunicativo quando me sinto à vontade, mas também valorizo momentos de concentração, silêncio e foco.\nO que me move é a união entre desafio e desenvolvimento contínuo."
   ],
@@ -76,9 +78,9 @@
   ],
   "professionalExperience": [
     {
-      "name": "Sem experiência profissional",
-      "period": "Vazio",
-      "description": "Vazio"
+      "name": "Desenvolvimento de projetos pessoais",
+      "period": "Atual",
+      "description": "Realização de projetos, com fins pessoas, durante realização de cursos na área de tecnologia."
     }
   ],
   "education": [
